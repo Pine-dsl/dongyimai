@@ -1,0 +1,6 @@
+com\dsl\xxx\service\SellerService.class
+com\dsl\xxx\service\TypeTemplateService.class
+com\dsl\xxx\service\GoodsService.class
+com\dsl\xxx\service\SpecificationService.class
+com\dsl\xxx\service\ItemCatService.class
+com\dsl\xxx\service\BrandService.class

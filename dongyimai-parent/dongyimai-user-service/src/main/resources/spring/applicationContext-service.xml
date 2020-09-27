@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--下面是schema约束，xsd文件约束-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <dubbo:protocol port="20005" name="dubbo" />
+    <dubbo:application name="dongyimai-user-service" />
+    <dubbo:annotation package="com.dsl.xxx.service.impl" />
+    <dubbo:registry address="zookeeper://192.168.188.128:2181" />
+
+</beans>
